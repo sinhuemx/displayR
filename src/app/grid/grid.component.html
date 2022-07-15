@@ -1,0 +1,86 @@
+ <div class="grid-center grid-spaceAround">
+    <div class="col-8 inline">
+        <mat-grid-list cols="9" rowHeight="3:3" *ngFor="let item of dataSource">
+            <mat-grid-tile></mat-grid-tile>
+            <mat-grid-tile>2011</mat-grid-tile>
+            <mat-grid-tile>2012</mat-grid-tile>
+            <mat-grid-tile>2013</mat-grid-tile>
+            <mat-grid-tile>2014</mat-grid-tile>
+            <mat-grid-tile>2015</mat-grid-tile>
+            <mat-grid-tile>2016</mat-grid-tile>
+            <mat-grid-tile>2017</mat-grid-tile>
+            <mat-grid-tile>2017</mat-grid-tile>
+        </mat-grid-list>
+        <mat-grid-list cols="9" rowHeight="3:3" *ngFor="let item of dataSource">
+            <mat-grid-tile>Bronx</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ec8163'}">{{item.temp3}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ec8163'}">{{item.temp3}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ec8163'}">{{item.temp3}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ec8163'}">{{item.temp3}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#e15641'}">{{item.temp5}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#d34234'}">{{item.temp6}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#c2352c'}">{{item.temp7}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#e15641'}">{{item.temp5}}</mat-grid-tile>
+          </mat-grid-list>
+        <mat-grid-list cols="9" rowHeight="3:3" *ngFor="let item of dataSource">
+            <mat-grid-tile>Brook</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#d34234'}">{{item.temp6}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#d34234'}">{{item.temp6}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#d34234'}">{{item.temp6}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#e15641'}">{{item.temp5}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#d34234'}">{{item.temp6}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#7d1a19'}">{{item.temp9}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#5f0e12'}">{{item.temp10}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ad2a24'}">{{item.temp8}}</mat-grid-tile>
+          </mat-grid-list>
+        <mat-grid-list cols="9" rowHeight="3:3" *ngFor="let item of dataSource">
+            <mat-grid-tile>Manhat</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#e15641'}">{{item.temp5}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#e96e52'}">{{item.temp4}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#e15641'}">{{item.temp5}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#e15641'}">{{item.temp5}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#d34234'}">{{item.temp6}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#c2352c'}">{{item.temp7}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ad2a24'}">{{item.temp8}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#d34234'}">{{item.temp6}}</mat-grid-tile>
+          </mat-grid-list>
+        <mat-grid-list cols="9" rowHeight="3:3" *ngFor="let item of dataSource">
+            <mat-grid-tile>Queens</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ef9c7f'}">{{item.temp2}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ef9c7f'}">{{item.temp2}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ef9c7f'}">{{item.temp2}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ef9c7f'}">{{item.temp2}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ef9c7f'}">{{item.temp2}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ec8163'}">{{item.temp3}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ec8163'}">{{item.temp3}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ec8163'}">{{item.temp3}}</mat-grid-tile>
+          </mat-grid-list>
+        <mat-grid-list cols="9" rowHeight="3:3" *ngFor="let item of dataSource">
+            <mat-grid-tile>State I</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#f3b99f'}">{{item.temp1}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#f3b99f'}">{{item.temp1}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#f3b99f'}">{{item.temp1}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#f3b99f'}">{{item.temp1}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#f3b99f'}">{{item.temp1}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#f3b99f'}">{{item.temp1}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#f3b99f'}">{{item.temp1}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#f3b99f'}">{{item.temp1}}</mat-grid-tile>
+          </mat-grid-list>
+
+    </div>
+    <div class="col-1 inline "></div>
+    <div class="col-1 inline space-xl">
+        <mat-grid-list cols="1" rowHeight="35px" *ngFor="let item of dataSource">
+            <mat-grid-tile [ngStyle]="{'background-color':'#5f0e12'}">{{item.temp10}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#7d1a19'}">{{item.temp9}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ad2a24'}">{{item.temp8}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#c2352c'}">{{item.temp7}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#d34234'}">{{item.temp6}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#e15641'}">{{item.temp5}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#e96e52'}">{{item.temp4}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ec8163'}">{{item.temp3}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#ef9c7f'}">{{item.temp2}}</mat-grid-tile>
+            <mat-grid-tile [ngStyle]="{'background-color':'#f3b99f'}">{{item.temp1}}</mat-grid-tile>
+          </mat-grid-list>
+    </div>
+</div>
